@@ -11,7 +11,7 @@
 <body>
     <main>
         <div class="card">
-            <h1>Cadastre-se</h1>
+            <h1>Day Lugo</h1>
             <form action="cadastro_usuarios.php" method="post">
             <input type="text" name="nome" placeholder="Digite o seu nome"/>
             <input type="email" name="email" placeholder="Digite o seu e-mail"/>
