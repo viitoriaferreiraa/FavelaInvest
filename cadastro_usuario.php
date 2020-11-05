@@ -8,11 +8,11 @@
 
 $nome = $_POST['nome'];
 $email = $_POST['email'];
-$senha = $_POST['senha'];
-$conf_senha = $_POST['conf_senha'];
+$senha = md5($_POST['senha']);
+$conf_senha = md5($_POST['conf_senha']);
 
 
-if (strlen($nome) >= 3 && strlen($email) >= 10 && strlen($senha) > 6 && $senha == $conf_senha) {
+if (strlen($nome) >= 3 && strlen($email) >= 10 && strlen($senha) > 3 && $senha == $conf_senha) {
     $senha_cripto = md5($senha);
 
     $conn = mysqli_connect("localhost", "root", "", "sistema");
