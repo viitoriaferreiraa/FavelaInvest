@@ -1,3 +1,73 @@
-.b {
-    background-color: pink;
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
+.b {
+    background-color: #3d56e0;
+}
+
+.h {
+    color:#3d56e0;
+}
+
+.r {
+    background-image: url('img/logo2.png');
+    height:15vh; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.j {
+    background-color: #f7caa3;
+}
+
+.apresentacao h5 {
+    position: relative;
+    top: 2%;
+}
+
+.apresentacao p {
+    position: relative;
+    top: 81%;
+}
+
+body {
+    background-color: #f7caa3;
+}
+
+.img1 {
+    background-image: url('img/2030.png'); 
+    height:85vh; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    display:flex;
+    flex-direction: column;
+}
+
+.txt2 {
+    height: 80vh;
+}
+
+.txt2 h5 {
+    line-height: 3;
+}
+
+.img2 {
+    background-image: url('img/fundo.png'); 
+    height:82vh; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.conclusao h3, h4, p {
+    line-height: 1.9;
+}
+
+</style>

@@ -6,20 +6,25 @@
     <title>Entre ou Cadastre-se</title>
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/global.css">
-</head>
+  </head>
+  <style>
+    .btn {
+        
+    }
+  </style>
 
 <body>
     <main>
         <section class="painel-login">
            <div class="card">
             <h1>Entre ou Cadastre-se</h1>
-            <form action="#" method="#">
+            <form action="#" method="post">
                 <input type="email" placeholder="E-mail"/>
                 <input type="password" placeholder="Senha"/>
                 <button>Entrar</button>
             </form>
             <a href="./cadastro.php">Ainda não possui cadastro? Clique aqui.</a>
-            <a href="comunidade.php">Conheça melhor a nossa comunidade.</a>
+            <a href="comunidade.php" class="btn">Conheça melhor a nossa comunidade.</a>
            </div>
         </section>
 
