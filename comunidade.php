@@ -18,7 +18,7 @@
             <header class="jumbotron j px-auto py-1 mb-0" >
                 <nav class="row justify-content-center">
                     <h2 class="col-sm-11 display-4 h pt-1 mt-1 text-center">Favela Invest</h2>
-                    <a class="menu_img r col-sm-1 bg-warning" href="index.php"></a>
+                    <a class="menu_img r col-sm-1 bg-warning response-xl" href="index.php"></a>
                 </nav>
                 <nav class="row">   
                     <a class="col-sm-1 btn text-white btn-md b" role="button" href="index.php">Voltar</a>
@@ -31,8 +31,8 @@
         <section  class="apresentacao container-fluid mx-0 px-0">
             
             <div class="jumbotron-fluid j2 text-center img1">
-            <h5>Ao total, são 17 objetivos que compõem os ODS atualmente (Objetivos de Desenvolvimento Sustentável) <strong><br>Para os Estados Membros da ONU</strong></h5>
-            <p class="text-center"><strong>Entre eles, promover o crescimento econômico</strong></p>
+            <h5 class="response-sm">Ao total, são 17 objetivos que compõem os ODS atualmente (Objetivos de Desenvolvimento Sustentável) <strong><br>Para os Estados Membros da ONU</strong></h5>
+            <p class="text-center response-sm"><strong>Entre eles, promover o crescimento econômico</strong></p>
             </div>
 
             <div class="container-fluid row txt2 align-items-center">
@@ -42,13 +42,13 @@
 
         <section class="desenvolvimento container-fluid px-0 mx-0">
             <div class="bg-white mx-0 px-0 row justify-content-center ">
-            <div class="col-sm-5" id="piechart">
+            <div class="col-sm-5 " id="piechart">
             <?php
             require('javascript/grafico1.js');
             ?>
             </div>
             </div>
-            <div class="container-sm-fluid row bg-white mx-0">
+            <div class="container-sm-fluid row bg-white mx-0 response-sm2">
             <?php
             require('javascript/graficos.js');
             ?>
@@ -61,16 +61,16 @@
         <section class="conclusao text-center container-fluid mx-0 px-0">
         <div class="jumbotron-fluid row align-items-center">
             <div class="col-sm-4"><h4>Com isso veio a ideia de uma apliacação multiplataforma de localização de empreendedores e investidores <strong class="text-primary">na periferia</strong>, cruzando informações de perfil</h4><p class="text-primary">Funciona como um "Tinder para o universo do empreendedorismo"</p></div>
-            <div class="col-sm-1 text-dark"><img src="img/seta-direita.svg" alt=""></div>
+            <div class="col-sm-1 text-dark"><img class="response-sm3" src="img/seta-direita.svg" alt=""></div>
             <div class="col-sm-3"><h1 class="text-primary">Favela Invest</h1><h2>Okay, mas como funciona?</h2></div>
-            <div class="col-sm-1 text-dark"><img src="img/seta-direita.svg" alt=""></div>
+            <div class="col-sm-1 text-dark"><img class="response-sm3" src="img/seta-direita.svg" alt=""></div>
             <div class="col-sm-3"><h3><strong class="text-primary">Empreendedores e Investidores</strong> criam o seu pitch ou perfil na plataforma</h3></div>
         </div>
         <div class="jumbotron-fluid row align-items-center">
             <div class="col-sm-4"><h3>Investidores e empreendedores recebem uma notificação do app sobre um novo negócio ou investidor que se adequa àquilo que procura.</h3></div>
-            <div class="col-sm-1 text-dark"><img src="img/seta-direita.svg" alt=""></div>
+            <div class="col-sm-1 text-dark"><img class="response-sm3" src="img/seta-direita.svg" alt=""></div>
             <div class="col-sm-3 "><h3><span class="text-primary">Caso haja uma correspondência</span>, as duas partes podem entrar em contato.</h3></div>
-            <div class="col-sm-1 text-dark"><img src="img/seta-direita.svg" alt=""></div>
+            <div class="col-sm-1 text-dark"><img class="response-sm3" src="img/seta-direita.svg" alt=""></div>
             <div class="col-sm-3"><h3>Podendo <span class="text-primary">fechar parceria</span> ou não</h3></div>
         </div>
 

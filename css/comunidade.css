@@ -71,3 +71,106 @@ body {
 }
 
 </style>
+
+<style>
+    
+    
+@media (min-width: 1440px) {
+.response-xl {
+    display:none;
+}
+
+.apresentacao p {
+position: relative;
+top: 86%;
+}
+
+.img1 {
+    width:100%;
+    height: 50vh;
+    margin-top: 20px;
+}
+
+.txt2 {
+    height: 40vh;
+}
+
+}
+
+@media (min-width: 768px) {
+    .response-lg {
+        height:60px;
+    }
+
+    .j nav a {
+        padding-right: 49px;
+        margin-left: -10px;
+    }
+
+    .apresentacao p {
+    position: relative;
+    top: 67%;
+    }
+
+    .img1 {
+    width:100%;
+    height: 70vh;
+    margin-top: 20px;
+    }
+
+    #piechart {
+        margin-left:-180px;
+    }
+
+    .conclusao h2, h3, h4 {
+        font-size: 15px !important;
+        margin-top:20px;
+    }
+    }
+
+    @media (max-width: 625px) {
+
+    .response-xl {
+        display:none;
+    }
+
+    .b {
+        margin: 15px 0;
+    }
+
+    .img1 {
+    width:100%;
+    height: 20vh;
+    margin-top: 20px;
+    }
+
+    .response-sm {
+        display:none;
+    }
+
+    .apresentacao div, h5 {
+        font-size: 12px;
+    }
+
+    #piechart {
+        display:none;
+    }
+
+    .response-sm2 {
+        margin-left: 20%;
+        margin-bottom: 10%;
+    }
+
+    .conclusao {
+        margin-top: 15%;
+    }
+
+    .response-sm3 {
+        transform: rotate(90deg);
+        height: 15vh;
+        margin: 25px 0;
+    }
+
+    }
+        
+</style>
