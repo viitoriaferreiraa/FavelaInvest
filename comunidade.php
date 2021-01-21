@@ -36,15 +36,14 @@
         <section class="start d-flex justify-content-center align-items-center mb-5">            
                 <div class="card ml-2">
                     <div class="card-body">
-                        <h5 class="card-title">mauris pharetra et</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="btn">Começe a Ajudar</a>
+                        <p class="card-text display-2">Sobre a economia das favelas</p>
+                        <a href="./index.php" class="btn btn-success">Começe a Ajudar</a>
                     </div>
                 </div>   
                 <div class="card w-75 h-50 mx-4">
                     <div class="card-body">
                         
-                        <p class="card-text">video</p>
+                        <p class="card-text"><iframe width="560" height="315" src="https://www.youtube.com/embed/32a_OhEP1sU?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
                         
                     </div>
                 </div>
@@ -82,25 +81,25 @@
 
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active" data-interval="20000">
                     <p id="texto" class="lead">Com isso veio a ideia de uma apliacação multiplataforma <br />de localização de empreendedores e investidores na periferia,<br /> cruzando informações de perfil<br />
             Funciona como um "Tinder para o universo do empreendedorismo"</p>
             </div>
-                <div class="carousel-item" data-interval="4000">
+                <div class="carousel-item" data-interval="10000">
                 Favela Invest
 Okay, mas como funciona?
                 </div>
-                <div class="carousel-item" data-interval="2000">
+                <div class="carousel-item" data-interval="12000">
                 Empreendedores e Investidores criam o seu pitch ou perfil na plataforma
                 </div>
 
-                <div class="carousel-item" data-interval="4000">
+                <div class="carousel-item" data-interval="24000">
                 Investidores e empreendedores recebem uma notificação do app sobre um novo negócio ou investidor que se adequa àquilo que procura.
                 </div>
-                <div class="carousel-item" data-interval="3000">
+                <div class="carousel-item" data-interval="10000">
                 Caso haja uma correspondência, as duas partes podem entrar em contato.
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-interval="9000">
                 Podendo fechar parceria ou não
                 </div>
   </div>
