@@ -1,0 +1,164 @@
+body {
+    background: linear-gradient(85.63deg, rgba(0, 19, 190, 0.9) -6.85%, rgba(31, 163, 181, 0.27) 110.29%);
+    width: 100%;
+    height: 800px;
+}
+
+body header {
+    width: 100%;
+    height: 150px;
+    background: #FFFFFF;
+}
+
+body header nav .navbar-brand img {
+    width: 444px;
+    height: 150px;
+}
+
+body header nav .collapse ul li .nav-link {
+    width: 174px;
+    height: 57px;
+    background: linear-gradient(90deg, rgba(0, 19, 190, 0.9) -54.02%, rgba(0, 19, 190, 0.63) 165.52%);
+    border-radius: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 27px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    color: #000000;
+    margin-left: 20em;
+}
+
+body main {
+    width: 100%;
+    height: 100%;
+}
+
+body main .linha {
+    width: 100%;
+    display: flex;
+}
+
+body main .coluna {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body main .linha section:nth-child(1) {
+    width: 424px;
+    height: 560px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body main .linha .coluna section:nth-child(1) {
+    width: 806px;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body main .linha .coluna section:nth-child(2) {
+    width: 806px;
+    height: 249px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body main .linha section:nth-child(1) p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 51px;
+    width: 452px;
+    height: 70px;
+    text-align: center;
+    color: #FFF9F9;
+}
+
+body main .linha .coluna section:nth-child(2) button {
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #161414;
+}
+
+body main .trabalhos {
+    width: 1276px;
+    height: 515px;
+    background: #C4C4C4;
+    border-radius: 0px 32px 32px 0px;
+}
+
+body main .trabalhos .fotos {
+    display: flex;
+}
+
+body main .trabalhos .fotos div {
+    margin: 0 10px;
+    width: 352px;
+    height: 346px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.f {
+    border: none;
+    font-weight: bolder;
+    color: black;
+}
+
+/* Perfil Usuário */
+
+.painelPerfil{
+    border-radius: 0px 43px 43px 0px;
+    padding: 25px 25px 0 3px;
+    margin: 0 0 0 80px;
+}
+.imgPerfil{
+    margin: 0 0 0 61px;
+    width: 138px !important;
+    height: 63px;
+
+}
+.card-title{
+    size:18px
+    }
+.painelForm {
+        background: linear-gradient(80.34deg, rgba(0, 29, 182, 0.3465) 2.06%, rgba(26, 110, 236, 0.14) 104.04%);
+        width: 226px;
+        height: 319px;
+        margin: 0px 50px 0px 0px;
+        border-radius: 43px 43px 43px 43px;
+}
+
+
+/* painel o que faz */
+
+.painelFaço{
+    width: 506px;
+}
+#formFaco textarea{
+    resize: none;
+    padding: 30px 0 0 30px;
+    width: 606px;
+    height: 249px;
+    background: rgba(242, 242, 242, 0.9);
+    border: none;
+    border-radius: 50px;
+    user-select: none;
+    margin-top: 40px;
+}

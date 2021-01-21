@@ -1,2 +1,2 @@
 # FavelaInvest
- Projeto Favela Invest Squad 6. (PHP)
+ Projeto Favela Invest Squad 6. (PHP com Nodejs)
