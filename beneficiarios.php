@@ -1,41 +1,73 @@
-<main >
-        <section class="menu">
-            <header class="jumbotron j px-auto py-1 mb-0" >
-                <nav class="row justify-content-center">
-                    <img src="img/logo_favela.jpeg" >                    
-                    <a class="menu_img r col-sm-1 bg-warning" href="index.php"></a>
-                </nav>
-                <nav class="row">   
-                    <a class="col-sm-1 btn text-white btn-md b" role="button" href="index.php">Voltar</a>
-                </nav> 
-                
-                
-            </header>
-        </section>
-        <main class=" "  style="display: inline-flex;" >
-        <?php foreach ($vendedores as $vendedor) { ?>
-            <div class="card w-50 mx-auto mt-4">
-                <div class="card-header text-primary">
-                <img class="card-img-top " style="width: 14rem;" src="<?= $vendedor ['img'] ?>" alt="Card image cap">
-                    <?= $vendedor ['name'] ?>
-                </div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+    <title>Olá   <?php echo $nome ?></title>
+    <link rel="stylesheet" href="./assets/css/perfilUsuario.css">
+</head>
+<body>
 
-                <div class="card-body">
-                    <ol>
-                    <li>Idade</li>
-                    <li>Contato</li>
-                    <li>Material necessario?</li>
-                    </ol>
+  <header class="mb-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="./perfilUsuario.php"><img src="./assets/imagens/favelalogo.png" alt="Favela Invest"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item btn">
+            <a class="nav-link" href="./index.php">Sair</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-                </div>
+  <main class="mt-5 container-fluid">
+  <p class="display-4">Minha Conta (colaborador)</p>
+    <div class="row">
+        <?php
+            $json = file_get_contents("http://localhost/FavelaInvest2.0.1/backend/apiusuarios.php");
+            $data = json_decode($json, true);
+            foreach ($data as $key => $row){
+                $id = $row['id_usuario'];
+                $materiais = explode(",", $row["materiais"]);
+        ?>
+            <section class= "col-4 section1 mb-5">
+              <div class="painelPerfil bg-light" style="width: 18rem;">
+              <img  src="./assets/imagens/1.jpeg" class="card-img-top rounded-circle imgPerfil" alt="...">
+              <div class="card-body">
+                <form action="#" class="painelForm form-inline">
+                  <div class="form-group mb-2">
+                    <label type="staticEmail2" class="sr-only">Nome: <?php echo $row["nome"]?></label>
+                    <input type="text" readonly class="form-control-plaintext" id="" value="Contato: <?php echo $row["nome"]?>">
+                    <input type="text" readonly class="form-control-plaintext" id="" value="Contato: <?php echo $row["contato"]?>">
+                    <input type="text" readonly class="form-control-plaintext" id="" value="Endereço: <?php echo $row["endereco"]?>">
+                    <input type="text" readonly class="form-control-plaintext" id="" value="Material necessário: ">
+                    <select>
+                      <?php
+                        for($i = 0; $i < count($materiais); $i++){
+                          ?>
+                            <option><?php echo $materiais[$i] ?></option>
+                          <?php
+                        }
+                      ?>
+                    </select>
+                    <a href="#" class="btn disabled btn-success btn-md active mr-1" role="button" aria-pressed="true">Ver perfil</a>
+                  </div>
+                </form>
+            
+              </div>
+              </div>
+            </section>
+        <?php
+            }
+        ?>
+      
+  </main>
 
-                <div class="card-footer  d-flex align-items-center justify-content-end text-info">
-                    <a class="btn btn-success" href="https://wa.me/<?= $vendedor['telphone']?>" >
-                        <!-- Telefone -->
-                        <i class = "fab fa-whatsapp" style="font-size:24px"> </i>                        
-                    </a>
-                </div>
-            </div>
-        <?php } ?>
+</body>
+</html>
 
-    </main>

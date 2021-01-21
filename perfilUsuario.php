@@ -96,7 +96,7 @@ $materiais = $_SESSION['materiais'];
               </select>
             </div>
 
-            <button type="button" class="btn btn-success btn-lg ">Contribuir</button>
+            <a href="./beneficiarios.php" type="button" class="btn btn-success btn-lg ">Contribuir</a>
             <p class="lead d-none">Mensagem Amigável</p>
           </section>
         </div>

@@ -11,8 +11,7 @@ $tipo = $_POST['tipo'];
 
 if (strlen($nome) >= 3 && strlen($email) >= 10 && strlen($senha) > 3 && $senha == $conf_senha) {
     $senha_cripto = md5($senha);    
-    $usuario= new Usuarios($nome,$email,$senha,$tipo);
-    
+    $usuario= new Usuarios($nome,$email,$senha_cripto,$tipo);
     if($usuario){
         echo "<script>
         alert('Cadastro efetuado!')
@@ -25,32 +24,33 @@ if (strlen($nome) >= 3 && strlen($email) >= 10 && strlen($senha) > 3 && $senha =
     </script>";
     }
 
-}else if ($senha != $config_senha) {
+
+}else if ($senha != $conf_senha) {
      
     echo "<script>
     alert('As senhas devem ser iguais, tente novamente!')
-    window.location.href = 'cadastro.php'
-</script>";
+    window.location.href = '../cadastro.php'
+    </script>";
     
 }else if (strlen($email) <= 3) {
     
     echo "<script>
     alert('Digite um e-mail válido para realizar o cadastro!')
-    window.location.href = 'cadastro.php'
+    window.location.href = '../cadastro.php'
 </script>";
     
 }else if (strlen($senha) <= 3) {
     
     echo "<script>
         alert('Digite uma senha válida para realizar o cadastro!')
-        window.location.href = 'cadastro.php'
+        window.location.href = '../cadastro.php'
     </script>";
     
 }else if (strlen($nome) <= 3) {
 
     echo "<script>
     alert('Digite um nome válido!')
-    window.location.href = 'cadastro.php'
+    window.location.href = '../cadastro.php'
 </script>";
     
 }

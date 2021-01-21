@@ -18,9 +18,9 @@
         <div class="d-flex flex-column">
             <div class="m-auto d-flex row">
                 <h2 class="col-12 m-auto justify-content-center d-flex">Entre ou Cadastre-se</h2>
-                <form class="d-flex m-auto p-4 col-12 row" action="" method="post">
-                    <input class="col-12 m-1" type="email" placeholder="E-mail"/>
-                    <input class="col-12 m-1" type="password" placeholder="Senha"/>
+                <form class="d-flex m-auto p-4 col-12 row" action="./backend/login_cadastro.php" method="post">
+                    <input class="col-12 m-1" type="email" name="email" placeholder="E-mail"/>
+                    <input class="col-12 m-1" type="password" name="senha" placeholder="Senha"/>
                     <div class="d-flex flex-column m-auto">
                         <button class="col-12 btn btn-info m-1">Entrar como BENEFICIADO</button>
                         <button class="col-12 btn btn-info m-1 ">Entrar como COLABORADOR</button> 
