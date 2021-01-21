@@ -1,0 +1,108 @@
+body {
+    width: 100%;
+    background: linear-gradient(89.13deg, rgba(0, 190, 173, 0.9) -13.05%, rgba(0, 190, 173, 0.27) 115.86%);
+}
+
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #F2F2F2;
+}
+
+header nav .navbar-brand img {
+    height: 64px;
+    width: 184,69px;
+    top: 6px;
+    left: 0;
+}
+
+header #navbarNav ul li {
+    font-size: 18px;
+    line-height: 21.09px;
+    font-weight: bold;
+    color: black;
+}
+
+header #navbarNav ul li:nth-child(2) {
+    border: 1px solid rgba(0, 145, 170, 0.7);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+main .start {
+    width: 100%;
+    height: 640px;
+    margin-top: 70px;
+    background: #F2F2F2;
+}
+
+main .start .card {
+    font-size: 12px;
+}
+
+main .center {
+    width: 100%;
+    height: 1620px;
+    background-color: white;
+}
+
+main .end {
+    width: 100%;
+    height: 670px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .end .carrocel {
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+#texto {
+    font-size: 32px;
+    line-height: 2;
+    font-weight: bolder;
+}
+
+main .end .carrocel .carousel .carousel-item {
+    font-size: 32px;
+    line-height: 1;
+    font-weight: bolder;
+}
+
+footer {
+    width: 100%;
+    height: 527px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a .logo {
+    width: 329px;
+    height: 114px;
+}
+
+footer hr {
+    border: 1px solid #000000;
+    width: 80%;
+}
+
+footer .redes-sociais {
+    height: 40px;
+    width: 296px;
+}
+
+footer .redes-sociais img {
+    height: 40px;
+    width: 40px;
+    margin: 0 0.5em;
+}
