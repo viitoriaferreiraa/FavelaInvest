@@ -1,0 +1,39 @@
+#header {
+    background: #0741AD;
+    width: 100%;
+    height: 80px;
+}
+
+#header ul li:nth-child(1) a #forma2 {
+    height: 39px;
+    width: 42px  ;
+    clip-path: polygon(8% 15%, 96% 4%, 93% 100%, 15% 97%);
+    background: rgb(0, 0, 0);
+    margin-top: -5px;
+    margin-left: 7px;
+}
+
+#header ul li:nth-child(2) a #logo2 {
+    height: 70px;
+    margin-top: -20px;
+}
+
+#header ul li:nth-child(3) a #forma1 {
+    height: 39px;
+    width: 42px  ;
+    clip-path: polygon(8% 15%, 96% 4%, 93% 100%, 15% 97%);
+    background: rgb(0, 0, 0);
+    margin-top: -5px;
+}
+
+@media (max-width: 400px) {
+    #header ul li:nth-child(3) {
+        display: none;
+    }
+}
+
+@media (max-width: 330px){
+    #header ul li:nth-child(2) {
+        display: none;
+    }   
+}
