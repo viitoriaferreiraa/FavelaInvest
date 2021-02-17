@@ -9,11 +9,12 @@ a {
     text-decoration: none;
 }
 
-main {
-    height: 768px;
+#main_cadastro {
+    height: 648px  !important;
+    width: 100%;
 }
 
-.container-login {
+.container-cadastro {
     background-color: rgba(65, 84, 241, 0.9);          
     box-sizing: border-box;
     /* box-shadow: 4px 4px 4px 1px rgba(18, 15, 175, 0.85); */
@@ -23,7 +24,7 @@ main {
     box-sizing: border-box;
 }
 
-.container-login form {
+.container-cadastro form {
     width: 90%;
     height: 80%;
     display: flex;
@@ -33,22 +34,22 @@ main {
     font-family: 'Poppins', sans-serif;
 }  
 
-.container-login form legend {
+.container-cadastro form legend {
     width: 175px;
     height: 40px;
     font-size: 26px;
     line-height: 30px;
     /* color: #FFFCFC; */
 }  
-.container-login form #nome {
+.container-cadastro form #nome {
     outline: none;
 } 
-.container-login form #email {
+.container-cadastro form #email {
     outline: none;
 } 
-.container-login form #senha {
+.container-cadastro form #senha {
     outline: none;
 } 
-.container-login form #senha2 {
+.container-cadastro form #senha2 {
     outline: none;
 }   

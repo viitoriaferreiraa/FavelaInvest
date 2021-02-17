@@ -4,7 +4,7 @@ import Foto_login from '../../assets/imagens/foto.png';
 
 const Login = () => {
     return(
-        <main className="d-flex justify-content-center align-items-center">
+        <main id="main" className="d-flex justify-content-center align-items-center h-100">
             <section className="container-login">
             <img id="foto" src={Foto_login} alt="Foto" />
             <form>          

@@ -14,7 +14,7 @@ const Contribuidor = () => {
             <div className="coluna ">
               <section className="section2 bg-light h-75 rounded-lg">
                   <h5 className="d-block lead my-5 text-dark text-sm-center display-4" style={{fontSize: 52}}>Encontre empreendedores para ajudar</h5>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Buscar</a>
+                <a className="btn btn-primary btn-lg" href="#" role="button">Buscar</a>
               </section>
               
             </div>

@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parse": "^0.1.0",
     "commonjs": "0.0.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",

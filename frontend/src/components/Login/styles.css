@@ -1,3 +1,8 @@
+#main {
+    height: 638px  !important;
+    width: 100%;
+}
+
 .container-login {
     width: 333.5px;
     height: 80%;

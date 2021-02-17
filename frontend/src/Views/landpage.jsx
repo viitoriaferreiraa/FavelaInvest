@@ -6,6 +6,9 @@ import React from 'react';
 const LandPage = () =>{
     return (
         <>
+            <h1 className="text-center">Se ainda estivermos vivos voltaremos até as 17h10</h1>
         </>
     )
 }
+
+export default LandPage;
