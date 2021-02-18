@@ -1,0 +1,55 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main_cadastro {
+    height: 648px  !important;
+    width: 100%;
+}
+
+.container-cadastro {
+    background-color: rgba(65, 84, 241, 0.9);          
+    box-sizing: border-box;
+    /* box-shadow: 4px 4px 4px 1px rgba(18, 15, 175, 0.85); */
+}
+
+.container-img {        
+    box-sizing: border-box;
+}
+
+.container-cadastro form {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}  
+
+.container-cadastro form legend {
+    width: 175px;
+    height: 40px;
+    font-size: 26px;
+    line-height: 30px;
+    /* color: #FFFCFC; */
+}  
+.container-cadastro form #nome {
+    outline: none;
+} 
+.container-cadastro form #email {
+    outline: none;
+} 
+.container-cadastro form #senha {
+    outline: none;
+} 
+.container-cadastro form #senha2 {
+    outline: none;
+}   
