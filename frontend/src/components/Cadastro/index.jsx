@@ -6,7 +6,7 @@ const Cadastro = () => {
     return(
         <main id="main_cadastro" className="d-flex mt-0 h-100">        
         <section  className="container-cadastro mx-0 w-50 h-100 d-md-flex flex-column justify-content-sm-around align-items-sm-center">
-        <form action="http://localhost:3000/cadastro" method="POST" className="form-group w-75 h-100">          
+        <form action="http://localhost/backend/cadastro_usuarios.php" method="POST" className="form-group w-75 h-100">          
             <legend className="text-white mt-3">Cadastre-se</legend>
             <label className="w-75 text-white" htmlFor="nome" id="lNome">Nome</label>
             <input className="form-control-sm w-75 bg-transparent border-top-0 border-right-0 border-left-0 border-bottom text-white" required type="text" name="nome" id="nome" />
