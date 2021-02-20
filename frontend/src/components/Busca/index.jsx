@@ -1,11 +1,14 @@
 import React from 'react';
 import './styles.css';
 import Foto_busca from '../../assets/imagens/perfil.jpeg';
+import Footer from '../Footer';
+import HeaderLogin from '../HeaderLogin';
 
 const Busca = () => {
     return(
         <React.Fragment>
-            <main className="container-busca d-sm-flex flex-column h-100 justify-content-center align-items-center align-self-center">
+            <HeaderLogin />
+            <main className="container-busca d-sm-flex flex-column h-100 justify-content-center align-items-center align-self-center mt-5">
                 <form className="w-25 mt-5"> 
                     <div className="form-group">
                         <label className="lead text-sm-dark text-sm-center w-100" htmlFor="regiao">Busque por região</label>
@@ -92,6 +95,7 @@ const Busca = () => {
                     </div>
                 </div> 
             </section>
+            <Footer />
         </React.Fragment>
     );
 }
