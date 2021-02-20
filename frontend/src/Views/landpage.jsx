@@ -2,11 +2,14 @@
 
 
 import React from 'react';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 const LandPage = () =>{
     return (
         <>
-            <h1 className="text-center">Se ainda estivermos vivos voltaremos até as 17h10</h1>
+            <Header />
+            <Footer />
         </>
     )
 }
