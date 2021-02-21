@@ -134,3 +134,81 @@ body main .trabalhos .fotos div {
     margin-top: 40px;
 }
 
+
+
+@media (max-width: 980px) {
+    body main .coluna {
+        display: none !important;
+    }
+
+    body main .linha2 {
+        display: flex !important;
+    }
+
+    body main .linha section:nth-child(1) {
+    width: 100% !important;
+    height: 600px !important;
+    }
+
+    body main .linha section:nth-child(1) img {
+        width: 120px !important;
+        height: 120px !important;
+    }
+}
+
+@media (max-width: 840px) {
+    body main .trabalhos .fotos div {
+        margin: 0 7px;
+        width: 252px;
+        height: 186px;
+    }
+
+    body main .trabalhos {
+        width: 80% !important;
+        padding: 0 !important;
+        margin-left: 180px !important;
+    }
+
+    body main .t {
+        text-align: center !important;
+    }
+
+}
+
+@media (max-width: 630px) {
+    body main .trabalhos .fotos div {
+        margin: 0 7px;
+        width: 192px;
+        height: 146px;
+    }
+
+    body main .trabalhos {
+        width: 80% !important;
+        padding: 0 !important;
+        margin: auto !important;
+    }
+
+}
+
+@media (max-width: 580px) {
+    body main .trabalhos .fotos div {
+        margin: 0 7px;
+        width: 300px;
+        height: 156px;
+        margin: 20px 0 !important;
+    }
+
+    body main .trabalhos {
+        width: 80% !important;
+        padding: 0 !important;
+        margin: auto !important;
+        height: 700px !important;
+
+    }
+
+    body main .trabalhos .fotos {
+    display: block !important;
+   
+}
+
+}

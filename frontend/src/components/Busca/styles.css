@@ -4,11 +4,17 @@
     /* background-color: #CADAF3; */
 }
 
-.container-card {
-    height: 500px;
-    width: 100%;
-}
-
 #card-busca {
     box-shadow: 30px 30px 30px rgb(1 ,41, 112 , 8%);
+}
+
+@media (max-width: 580px){
+    .container-busca {
+        height: 100px !important;
+        width: 100% !important;
+        margin: 20px auto !important;
+        padding-top: 15px !important;
+        text-align: center !important;
+        /* background-color: #CADAF3; */
+    }
 }

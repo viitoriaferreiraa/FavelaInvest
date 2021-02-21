@@ -52,4 +52,19 @@ a {
 } 
 .container-cadastro form #senha2 {
     outline: none;
-}   
+}
+
+@media (max-width: 744px) {
+    main .container-img {
+        display: none !important;
+    }
+    main .container-cadastro {
+        width: 100% !important;
+    }
+    main #form-cadastro {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
