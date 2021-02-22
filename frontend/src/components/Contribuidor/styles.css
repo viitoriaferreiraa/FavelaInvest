@@ -73,4 +73,14 @@ body main .linha .coluna section:nth-child(2) button {
 }
 
 
+@media (max-width: 980px) {
+    body main .coluna2 {
+        width: 100% !important;
+        display: flex !important;
+    }
 
+    body .section2 a {
+        width: 50% !important;
+        margin-left: 50px !important;
+    }
+}

@@ -6,7 +6,7 @@ import HeaderLogin from '../HeaderLogin';
 
 const Contribuidor = () => {
 
-    const [info, setInfo] = React.useState([]);
+    const [info, setInfo] = React.useState(['']);
    
 
     React.useEffect(async() => {
@@ -14,7 +14,7 @@ const Contribuidor = () => {
         setInfo(await resposta.json());
     }, []);
   
-    console.log(info[0]);
+    console.log(info);
 
 
     return(
@@ -36,6 +36,14 @@ const Contribuidor = () => {
               </section>
               
             </div>
+        </div>
+
+        <div className="coluna2 d-none flex-sm-column justify-content-sm-space-around align-items-sm-center w-100">
+              <section className="section2 bg-light h-75 rounded-lg d-sm-flex flex-sm-column align-items-sm-center justify-content-sm-center mx-auto">
+                  <h5 className="d-block lead my-5 text-dark text-sm-center display-4" style={{fontSize: 52}}>Encontre empreendedores para ajudar</h5>
+                <a className="btn btn-primary btn-lg w-25" href="./busca" role="button">Buscar</a>
+              </section>
+              
         </div>
   
         </main>

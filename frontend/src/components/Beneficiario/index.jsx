@@ -6,7 +6,7 @@ import HeaderLogin from '../HeaderLogin';
 
 const Beneficiario = () => {
 
-  const [dados, setDados] = React.useState([]);
+  const [dados, setDados] = React.useState(['']);
    
 
   React.useEffect(async() => {
@@ -41,7 +41,14 @@ const Beneficiario = () => {
               
             </div>
         </div>
-        <h5 className="d-block lead mx-5 text-dark text-sm-center display-4" style={{fontSize: 52}}>Veja Meus Trabalhos</h5>
+        <div className="linha2 w-100 my-5 ml-5 d-none justify-content-center align-items-center">
+              <section className="section2 bg-light h-75 rounded-lg">
+                <p className="lead text-dark">{dados[0].materiais}</p>
+                <a href="#" className="btn btn-primary btn-md" tabIndex="-1" role="button" aria-disabled="false">Atualizar Descrição</a>
+              </section>
+              
+        </div>
+        <h5 className="d-block lead mx-auto t text-dark text-md-center display-4" style={{fontSize: 52}}>Veja Meus Trabalhos</h5>
         <hr className="bg-dark w-50" />
         <section className="trabalhos px-5">
           <button type="button" className="btn btn-primary btn-lg">Contribuir</button>
