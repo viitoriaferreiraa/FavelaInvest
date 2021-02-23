@@ -1,0 +1,138 @@
+#main {
+    height: 638px  !important;
+    width: 100%;
+}
+
+body{
+    background: white url(../assets/img/footer-bg.png);
+}
+
+.container-login {
+    width: 333.5px;
+    height: 80%;
+    /* background-color: rgba(18, 15, 175, 0.85); */
+    background-color: rgba(65, 84, 241, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;            
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px 1px rgba(18, 15, 175, 0.85);
+    border-radius: 100px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-login #foto {
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+    margin: -50px 0 10px 0; 
+}
+
+.container-login form {
+    width: 333.5px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}  
+
+.container-login form legend {
+    width: 115px;
+    height: 40px;
+    margin: 5px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 30px;
+    /* color: #FFFCFC; */
+}  
+
+.container-login form #lEmail {
+    width: 55%;
+    height: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FBF1F1;
+    margin: -15px 0 0 0;
+    font-family: 'Poppins', sans-serif;
+} 
+
+.container-login form #email {
+    border: 0;
+    border-bottom: 2px solid #9e9e9e;
+    outline: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #FCF8F8;
+    margin-top: -15px;
+    width: 55%;
+} 
+
+.container-login form #lSenha {
+    width: 55%;
+    height: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FBF1F1;
+    margin: 30px 0 0 0;
+    font-family: 'Poppins', sans-serif;
+} 
+
+.container-login form #senha {
+    border: 0;
+    border-bottom: 2px solid #9e9e9e;
+    outline: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #FCF8F8;
+    margin-top: -15px;
+    width: 55%;
+} 
+
+.container-login form button {
+    width: 60%;
+    height: 45px;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 50px;
+    margin: 5px 0 0 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #0F0E0E;
+    border: none;
+} 
+
+.container-login form .texto1 {
+    width: 60%;
+    height: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 8px;
+    color: #FBF1F1;
+    margin: -5px 0 0 0;
+} 
+
+.container-login form .texto2 {
+    width: 60%;
+    height: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FBF1F1;
+    margin: -5px 0 0 0;
+    font-family: 'Poppins', sans-serif;
+} 
+
