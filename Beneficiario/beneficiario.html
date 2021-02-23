@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Olá <?php echo $nome ?></title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link href="../assets/img/favelalogo.png" rel="icon">
+    <link href="../assets/img/favelalogo.png" rel="apple-touch-icon">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+</head>
+<body>
+    <main class="d-sm-flex flex-column justify-content-center align-items-center align-self-center">
+        <div class="linha">
+        <section class="section1 my-5 ml-5 bg-light rounded-lg">
+          <div class="flex-conteiner">
+            <img src="img/Logo.jpg" alt="">
+            <button>sair</button>
+            </div>   
+
+            <img class="h-25 w-50 rounded img-fluid " src='../assets/imagens/foto.png'/>
+            <h5 class="lead display-4 text-center text-dark"><p class="text-center">Olá <?php echo $nome ?></p></h5>
+            <h3 class="lead text-dark">Ramo: </h3>
+            <h3 class="lead text-dark">Idade: </h3>
+            <h3 class="lead text-dark">Local: </h3>
+        </section>
+        <form>
+          <div class="form-group ">       
+            <input type="textarea" style="height: 223px"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="O que eu faço!">
+           </div>
+       </form>
+        </div>
+        <h5 class="d-block lead mx-5 text-dark text-sm-center display-4">Veja Meus Trabalhos</h5>
+        <hr class="bg-dark w-50" />
+        <section class="trabalhos px-5">
+          <button type="button" class="btn btn-primary btn-lg">Contribuir</button>
+          <div class="fotos mt-5">
+            <div><img class="w-100 h-100" src="../assets/imagens/perfil.jpeg" alt="" /></div>
+            <div> <img class="w-100 h-100" src="../assets/imagens/perfil2.jpeg" alt="" /></div>
+            <div> <img class="w-100 h-100" src="../assets/imagens/perfil3.jpeg" alt="" /></div>
+          </div>
+        </section>
+        </main>
+    
+</body>
+</html>
